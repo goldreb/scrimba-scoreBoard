@@ -1,0 +1,95 @@
+@font-face {
+    font-family: score;
+    src: url(./clock.ttf);
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 80%;
+    margin: 5% auto;
+    max-width: 600px;
+    background-color: rgb(9, 9, 86);
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 10px 25px 50px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 2.85rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.score {
+    background-color: black;
+    color: red;
+    font-family: "score", san-serif;
+    text-align: center;
+    font-size: 5rem;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.btnStyle {
+    text-align: center;
+    margin: 15px 2px 30px 0px;
+}
+
+.btnStyle button {
+    background-color: rgb(9, 9, 86);
+    color: rgb(153, 161, 246);
+    border: 1px solid rgb(153, 161, 246);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: score;
+    font-size: 1.5rem;
+}
+
+.soccer {
+    width: 180px;
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.basketball {
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    z-index: -2;
+    opacity: 0.5;
+}
+
+.baseball {
+    width: 330px;
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.reset {
+    color: linen;
+    font-size: 20px;
+    background-color: rgb(153, 161, 246);
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.reset:hover {
+    background-color: rgb(3, 86, 58);
+}

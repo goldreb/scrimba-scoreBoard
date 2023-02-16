@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports Score</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div id="homeScore" class="score">0</div>
+            <div class="btnStyle">
+                <button onclick="addOneHome()">+1</button>
+                <button onclick="addTwoHome()">+2</button>
+                <button onclick="addThreeHome()">+3</button>
+            </div>
+        </div>
+        <div>
+            <p class="reset">Reset Score </p>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <div id="guestScore" class="score">0</div>
+            <div class="btnStyle">
+                <button onclick="addOneGuest()">+1</button>
+                <button onclick="addTwoGuest()">+2</button>
+                <button onclick="addThreeGuest()">+3</button>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <img src="./images/soccer.jpg" alt="soccer" class="soccer" />
+    <img src="./images/basketball.jpg" alt="basketball" class="basketball" />
+    <img src="./images/baseball.jpg" alt="baseball" class="baseball" />
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
